@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Animation name="explosiveSword" imagePath="Explosing.png" width="658" height="324">
+    <sprite x="296" y="46" w="5" h="5" oX="296" oY="46" oW="-262" oH="47" />
+    <sprite x="312" y="32" w="18" h="19" oX="312" oY="32" oW="-262" oH="47" />
+    <sprite x="344" y="25" w="25" h="26" oX="344" oY="25" oW="-262" oH="47" />
+  </Animation>
+  <Animation name="teapotExplosing" imagePath="Explosing.png" width="658" height="324">
+    <sprite x="8" y="215" w="78" h="68" oX="8" oY="215" oW="337" oH="675" />
+    <sprite x="96" y="221" w="80" h="59" oX="96" oY="221" oW="337" oH="675" />
+    <sprite x="192" y="223" w="81" h="56" oX="192" oY="223" oW="337" oH="675" />
+    <sprite x="289" y="232" w="78" h="44" oX="289" oY="232" oW="337" oH="675" />
+    <sprite x="376" y="237" w="75" h="41" oX="376" oY="237" oW="337" oH="675" />
+    <sprite x="471" y="244" w="92" h="37" oX="471" oY="244" oW="337" oH="675" />
+    <sprite x="586" y="252" w="41" h="29" oX="586" oY="252" oW="337" oH="675" />
+  </Animation>
+  <Animation name="genieExplosing" imagePath="Explosing.png" width="658" height="324">
+    <sprite x="384" y="23" w="29" h="28" oX="384" oY="23" oW="133" oH="618" />
+    <sprite x="424" y="9" w="41" h="42" oX="424" oY="9" oW="133" oH="618" />
+    <sprite x="480" y="15" w="36" h="36" oX="480" oY="15" oW="133" oH="618" />
+    <sprite x="528" y="9" w="41" h="42" oX="528" oY="9" oW="133" oH="618" />
+    <sprite x="584" y="9" w="39" h="42" oX="584" oY="9" oW="133" oH="618" />
+    <sprite x="8" y="68" w="41" h="39" oX="8" oY="68" oW="133" oH="618" />
+    <sprite x="64" y="68" w="41" h="39" oX="64" oY="68" oW="133" oH="618" />
+    <sprite x="120" y="69" w="41" h="38" oX="120" oY="69" oW="133" oH="618" />
+    <sprite x="176" y="76" w="40" h="31" oX="176" oY="76" oW="133" oH="618" />
+    <sprite x="232" y="75" w="39" h="32" oX="232" oY="75" oW="133" oH="618" />
+    <sprite x="288" y="70" w="40" h="37" oX="288" oY="70" oW="133" oH="618" />
+    <sprite x="344" y="76" w="36" h="31" oX="344" oY="76" oW="133" oH="618" />
+    <sprite x="393" y="85" w="38" h="18" oX="393" oY="85" oW="133" oH="618" />
+    <sprite x="442" y="85" w="35" h="19" oX="442" oY="85" oW="133" oH="618" />
+    <sprite x="488" y="88" w="13" h="15" oX="488" oY="88" oW="133" oH="618" />
+    <sprite x="528" y="90" w="18" h="17" oX="528" oY="90" oW="133" oH="618" />
+    <sprite x="566" y="84" w="9" h="22" oX="566" oY="84" oW="133" oH="618" />
+  </Animation>
+  <Animation name="bossExplosing" imagePath="Explosing.png" width="658" height="324">
+    <sprite x="8" y="180" w="25" h="23" oX="8" oY="180" oW="196" oH="494" />
+    <sprite x="48" y="156" w="58" h="47" oX="48" oY="156" oW="196" oH="494" />
+    <sprite x="120" y="119" w="81" h="84" oX="120" oY="119" oW="196" oH="494" />
+    <sprite x="208" y="124" w="82" h="79" oX="208" oY="124" oW="196" oH="494" />
+    <sprite x="304" y="125" w="81" h="78" oX="304" oY="125" oW="196" oH="494" />
+    <sprite x="400" y="129" w="82" h="74" oX="400" oY="129" oW="196" oH="494" />
+    <sprite x="496" y="131" w="82" h="72" oX="496" oY="131" oW="196" oH="494" />
+  </Animation>
+  <Animation name="explosiveEnemy" imagePath="explosiveEnemy.png" width="1150" height="115">
+    <sprite x="69" y="63" w="19" h="15" oX="69" oY="63" oW="-740" oH="808" />
+    <sprite x="130" y="35" w="72" h="47" oX="130" oY="35" oW="-740" oH="808" />
+    <sprite x="216" y="34" w="78" h="49" oX="216" oY="34" oW="-740" oH="808" />
+    <sprite x="299" y="32" w="81" h="51" oX="299" oY="32" oW="-740" oH="808" />
+    <sprite x="386" y="31" w="84" h="52" oX="386" oY="31" oW="-740" oH="808" />
+    <sprite x="469" y="29" w="90" h="54" oX="469" oY="29" oW="-740" oH="808" />
+    <sprite x="580" y="47" w="42" h="37" oX="580" oY="47" oW="-740" oH="808" />
+    <sprite x="670" y="49" w="40" h="35" oX="670" oY="49" oW="-740" oH="808" />
+    <sprite x="759" y="50" w="39" h="34" oX="759" oY="50" oW="-740" oH="808" />
+    <sprite x="848" y="50" w="36" h="34" oX="848" oY="50" oW="-740" oH="808" />
+  </Animation>
+</Animations>

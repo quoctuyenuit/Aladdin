@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{7c492914-9bbb-4cdb-9ec2-acfd83a3fc44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{84979df1-1705-42ee-9c38-ec27a3ad6863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapLoader">
+      <UniqueIdentifier>{8f22389e-fa10-47ba-8fb7-43cf384f945d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sence">
+      <UniqueIdentifier>{65d0b850-a859-4d41-9e46-502a228bda42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{3d576bdd-dc7c-4cfe-8203-3d15ec2a4824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Static Object">
+      <UniqueIdentifier>{54986ecb-9a66-4ff1-a276-48527166fc6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XMLResource">
+      <UniqueIdentifier>{e2f2a6ea-1c2a-4176-be1a-0c59b6e0caa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{4a86e5a4-ae4f-4e94-977d-7d6f4bf56e81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Enemy">
+      <UniqueIdentifier>{e49a7153-dac5-46a9-ac66-1d36f6a74ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Item">
+      <UniqueIdentifier>{bf9b574a-d167-4df7-acd7-2d7b6a64be2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserInterface">
+      <UniqueIdentifier>{71e7a0a4-a020-4ee3-8c27-23a4c88ce3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Bullet">
+      <UniqueIdentifier>{df330c49-a76d-4297-ba1c-b14807f633e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\AladdinTeam">
+      <UniqueIdentifier>{56a9b04b-21d0-428e-a84a-d2b4fb6fc684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\AbstractObject">
+      <UniqueIdentifier>{f5e77873-7069-4d4f-8674-bc4192650c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Boss">
+      <UniqueIdentifier>{e83df56e-7318-4048-95ba-d5d0f73302de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{c239f9f1-e547-4be7-b4f4-95177ca9ac76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{34cfdba7-bbbe-45c8-8c1a-e5b06ae3c0e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SenceManager.cpp">
+      <Filter>Sence</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySence.cpp">
+      <Filter>Sence</Filter>
+    </ClCompile>
+    <ClCompile Include="Aladdin.cpp">
+      <Filter>Objects\AladdinTeam</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBoard.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Rope.cpp">
+      <Filter>Objects\Static Object</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>MapLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>MapLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceImage.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceFile.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPort.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>Objects\Static Object</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>XMLResource</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>XMLResource</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>XMLResource</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>XMLResource</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>MapLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="WRect.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="CTreeObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="QNode.cpp">
+      <Filter>MapLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Objects\Static Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>Objects\Static Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Objects\Static Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Stair.cpp">
+      <Filter>Objects\Static Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Stick.cpp">
+      <Filter>Objects\Static Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Guard1.cpp">
+      <Filter>Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="CamelBullet.cpp">
+      <Filter>Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Guard2.cpp">
+      <Filter>Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>Objects\Static Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Guard3.cpp">
+      <Filter>Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Civilian1.cpp">
+      <Filter>Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Civilian2.cpp">
+      <Filter>Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="AladdinAction.cpp">
+      <Filter>Objects\AladdinTeam</Filter>
+    </ClCompile>
+    <ClCompile Include="Civilian3.cpp">
+      <Filter>Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleItem.cpp">
+      <Filter>Objects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemObject.cpp">
+      <Filter>Objects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Play.cpp">
+      <Filter>UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthPoint.cpp">
+      <Filter>UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="GemItem.cpp">
+      <Filter>Objects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="TeaPotItem.cpp">
+      <Filter>Objects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="HeartItem.cpp">
+      <Filter>Objects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GenieItem.cpp">
+      <Filter>Objects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Apple.cpp">
+      <Filter>Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Camel.cpp">
+      <Filter>Objects\AladdinTeam</Filter>
+    </ClCompile>
+    <ClCompile Include="DropGround.cpp">
+      <Filter>Objects\Static Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionObject.cpp">
+      <Filter>Objects\AbstractObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Objects\AbstractObject</Filter>
+    </ClCompile>
+    <ClCompile Include="JarItem.cpp">
+      <Filter>Objects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="JafarBoss.cpp">
+      <Filter>Objects\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHealthBar.cpp">
+      <Filter>UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="ClayPot.cpp">
+      <Filter>Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BossStar.cpp">
+      <Filter>Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeFire.cpp">
+      <Filter>Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroSence.cpp">
+      <Filter>Sence</Filter>
+    </ClCompile>
+    <ClCompile Include="GenieIntroView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewObject.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="AladdinView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="BirdDead.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="AbuView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteText.cpp">
+      <Filter>FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Peddler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectMenuView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ISence.h">
+      <Filter>Sence</Filter>
+    </ClInclude>
+    <ClInclude Include="Aladdin.h">
+      <Filter>Objects\AladdinTeam</Filter>
+    </ClInclude>
+    <ClInclude Include="SenceManager.h">
+      <Filter>Sence</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySence.h">
+      <Filter>Sence</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBoard.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Rope.h">
+      <Filter>Objects\Static Object</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>MapLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>MapLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceImage.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceFile.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPort.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>Objects\Static Object</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>XMLResource</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>XMLResource</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>MapLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="WRect.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="CTreeObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="QNode.h">
+      <Filter>MapLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Objects\Static Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>Objects\Static Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Objects\Static Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Stair.h">
+      <Filter>Objects\Static Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Stick.h">
+      <Filter>Objects\Static Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard1.h">
+      <Filter>Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CamelBullet.h">
+      <Filter>Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Apple.h">
+      <Filter>Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard2.h">
+      <Filter>Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>Objects\Static Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Guard3.h">
+      <Filter>Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Civilian1.h">
+      <Filter>Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Civilian2.h">
+      <Filter>Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="AladdinAction.h">
+      <Filter>Objects\AladdinTeam</Filter>
+    </ClInclude>
+    <ClInclude Include="Civilian3.h">
+      <Filter>Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleItem.h">
+      <Filter>Objects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemObject.h">
+      <Filter>Objects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Play.h">
+      <Filter>UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthPoint.h">
+      <Filter>UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GemItem.h">
+      <Filter>Objects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="TeaPotItem.h">
+      <Filter>Objects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="HeartItem.h">
+      <Filter>Objects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GenieItem.h">
+      <Filter>Objects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Camel.h">
+      <Filter>Objects\AladdinTeam</Filter>
+    </ClInclude>
+    <ClInclude Include="DropGround.h">
+      <Filter>Objects\Static Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionObject.h">
+      <Filter>Objects\AbstractObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Objects\AbstractObject</Filter>
+    </ClInclude>
+    <ClInclude Include="JarItem.h">
+      <Filter>Objects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="JafarBoss.h">
+      <Filter>Objects\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHealthBar.h">
+      <Filter>UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="ClayPot.h">
+      <Filter>Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BossStar.h">
+      <Filter>Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeFire.h">
+      <Filter>Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroSence.h">
+      <Filter>Sence</Filter>
+    </ClInclude>
+    <ClInclude Include="GenieIntroView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewObject.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="AladdinView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="BirdDead.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="AbuView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteText.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Peddler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectMenuView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="AladdinResource.xml">
+      <Filter>XMLResource</Filter>
+    </Xml>
+    <Xml Include="EnemyResource.xml">
+      <Filter>XMLResource</Filter>
+    </Xml>
+    <Xml Include="ExplosingResource.xml">
+      <Filter>XMLResource</Filter>
+    </Xml>
+    <Xml Include="ItemResource.xml">
+      <Filter>XMLResource</Filter>
+    </Xml>
+    <Xml Include="JafarResource.xml">
+      <Filter>XMLResource</Filter>
+    </Xml>
+    <Xml Include="ViewResource.xml">
+      <Filter>XMLResource</Filter>
+    </Xml>
+    <Xml Include="TextResource.xml">
+      <Filter>XMLResource</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

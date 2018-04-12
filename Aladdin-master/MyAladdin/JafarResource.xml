@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Animation name="jafar1" imagePath="jarfar.PNG" width="863" height="348">
+    <sprite x="8" y="9" w="64" h="70" oX="8" oY="9" oW="73" oH="590" />
+    <sprite x="80" y="10" w="57" h="69" oX="80" oY="10" oW="73" oH="590" />
+    <sprite x="144" y="11" w="55" h="68" oX="144" oY="11" oW="73" oH="590" />
+    <sprite x="208" y="12" w="51" h="67" oX="208" oY="12" oW="73" oH="590" />
+    <sprite x="272" y="11" w="64" h="68" oX="272" oY="11" oW="73" oH="590" />
+    <sprite x="344" y="11" w="82" h="68" oX="344" oY="11" oW="73" oH="590" />
+    <sprite x="440" y="11" w="85" h="68" oX="440" oY="11" oW="73" oH="590" />
+    <sprite x="536" y="11" w="68" h="68" oX="536" oY="11" oW="73" oH="590" />
+  </Animation>
+  <Animation name="jafar2" imagePath="jarfar.PNG" width="863" height="348">
+    <sprite x="8" y="118" w="70" h="57" oX="8" oY="118" oW="174" oH="850" />
+    <sprite x="88" y="112" w="64" h="63" oX="88" oY="112" oW="174" oH="850" />
+    <sprite x="160" y="104" w="67" h="71" oX="160" oY="104" oW="174" oH="850" />
+    <sprite x="240" y="104" w="71" h="71" oX="240" oY="104" oW="174" oH="850" />
+    <sprite x="320" y="92" w="68" h="83" oX="320" oY="92" oW="174" oH="850" />
+    <sprite x="400" y="93" w="68" h="82" oX="400" oY="93" oW="174" oH="850" />
+    <sprite x="480" y="94" w="69" h="81" oX="480" oY="94" oW="174" oH="850" />
+    <sprite x="560" y="94" w="69" h="81" oX="560" oY="94" oW="174" oH="850" />
+    <sprite x="644" y="93" w="63" h="83" oX="644" oY="93" oW="174" oH="850" />
+    <sprite x="716" y="95" w="64" h="81" oX="716" oY="95" oW="174" oH="850" />
+    <sprite x="788" y="116" w="71" h="60" oX="788" oY="116" oW="174" oH="850" />
+
+  </Animation>
+  <Animation name="jafarFire" imagePath="jarfar.PNG" width="863" height="348">
+    <sprite x="8" y="286" w="74" h="49" oX="8" oY="286" oW="368" oH="716" />
+    <sprite x="96" y="288" w="79" h="47" oX="96" oY="288" oW="368" oH="716" />
+    <sprite x="184" y="294" w="98" h="41" oX="184" oY="294" oW="368" oH="716" />
+    <sprite x="296" y="295" w="89" h="40" oX="296" oY="295" oW="368" oH="716" />
+    <sprite x="400" y="305" w="76" h="30" oX="400" oY="305" oW="368" oH="716" />
+    <sprite x="488" y="305" w="73" h="30" oX="488" oY="305" oW="368" oH="716" />
+    <sprite x="572" y="293" w="60" h="42" oX="572" oY="293" oW="368" oH="716" />
+    <sprite x="645" y="285" w="64" h="50" oX="645" oY="285" oW="368" oH="716" />
+  </Animation>
+  <Animation name="jafarStar" imagePath="jarfar.PNG" width="863" height="348">
+    <sprite x="198" y="226" w="27" h="13" oX="198" oY="226" oW="49" oH="193" />
+    <sprite x="238" y="224" w="23" h="15" oX="238" oY="224" oW="49" oH="193" />
+    <sprite x="270" y="225" w="25" h="14" oX="270" oY="225" oW="49" oH="193" />
+  </Animation>
+
+  <Animation name="jafarStarDead" imagePath="jarfar.PNG" width="863" height="348">
+    <sprite x="310" y="227" w="13" h="12" oX="310" oY="227" oW="49" oH="193" />
+    <sprite x="334" y="226" w="20" h="13" oX="334" oY="226" oW="49" oH="193" />
+    <sprite x="381" y="219" w="18" h="23" oX="366" oY="219" oW="49" oH="193" />
+  </Animation>
+
+  <Animation name="fire" imagePath="jarfar.PNG" width="863" height="348">
+    <sprite x="14" y="193" w="23" h="46" oX="14" oY="193" oW="215" oH="153" />
+    <sprite x="46" y="187" w="21" h="52" oX="46" oY="187" oW="215" oH="153" />
+    <sprite x="78" y="193" w="23" h="46" oX="78" oY="193" oW="215" oH="153" />
+    <sprite x="110" y="190" w="26" h="49" oX="110" oY="190" oW="215" oH="153" />
+    <sprite x="150" y="194" w="34" h="45" oX="150" oY="194" oW="215" oH="153" />
+  </Animation>
+
+ <Animation name="bossHealthBar" imagePath="bossHealthBar.png" width="226" height="1757">
+    <sprite x="8" y="1703" w="197" h="38" oX="8" oY="1703" oW="1812" oH="199" />
+    <sprite x="8" y="1650" w="197" h="38" oX="8" oY="1650" oW="1812" oH="199" />
+    <sprite x="8" y="1599" w="197" h="38" oX="8" oY="1599" oW="1812" oH="199" />
+    <sprite x="8" y="1544" w="197" h="38" oX="8" oY="1544" oW="1812" oH="199" />
+    <sprite x="8" y="1488" w="197" h="38" oX="8" oY="1488" oW="1812" oH="199" />
+    <sprite x="8" y="1430" w="197" h="38" oX="8" oY="1430" oW="1812" oH="199" />
+    <sprite x="8" y="1374" w="197" h="38" oX="8" oY="1374" oW="1812" oH="199" />
+    <sprite x="8" y="1322" w="197" h="38" oX="8" oY="1322" oW="1812" oH="199" />
+    <sprite x="8" y="1273" w="197" h="38" oX="8" oY="1273" oW="1812" oH="199" />
+    <sprite x="8" y="1217" w="197" h="38" oX="8" oY="1217" oW="1812" oH="199" />
+    <sprite x="8" y="1161" w="197" h="38" oX="8" oY="1161" oW="1812" oH="199" />
+    <sprite x="8" y="1101" w="197" h="38" oX="8" oY="1101" oW="1812" oH="199" />
+    <sprite x="8" y="1043" w="197" h="38" oX="8" oY="1043" oW="1812" oH="199" />
+    <sprite x="8" y="987" w="197" h="38" oX="8" oY="987" oW="1812" oH="199" />
+    <sprite x="8" y="932" w="197" h="38" oX="8" oY="932" oW="1812" oH="199" />
+    <sprite x="8" y="876" w="197" h="38" oX="8" oY="876" oW="1812" oH="199" />
+    <sprite x="8" y="816" w="197" h="38" oX="8" oY="816" oW="1812" oH="199" />
+    <sprite x="8" y="761" w="197" h="38" oX="8" oY="761" oW="1812" oH="199" />
+    <sprite x="8" y="710" w="197" h="38" oX="8" oY="710" oW="1812" oH="199" />
+    <sprite x="8" y="649" w="197" h="38" oX="8" oY="649" oW="1812" oH="199" />
+    <sprite x="8" y="588" w="197" h="38" oX="8" oY="588" oW="1812" oH="199" />
+    <sprite x="8" y="530" w="197" h="38" oX="8" oY="530" oW="1812" oH="199" />
+    <sprite x="8" y="474" w="197" h="38" oX="8" oY="474" oW="1812" oH="199" />
+    <sprite x="8" y="419" w="197" h="38" oX="8" oY="419" oW="1812" oH="199" />
+    <sprite x="8" y="362" w="197" h="38" oX="8" oY="362" oW="1812" oH="199" />
+    <sprite x="8" y="304" w="197" h="38" oX="8" oY="304" oW="1812" oH="199" />
+    <sprite x="8" y="248" w="197" h="38" oX="8" oY="248" oW="1812" oH="199" />
+    <sprite x="8" y="185" w="197" h="38" oX="8" oY="185" oW="1812" oH="199" />
+    <sprite x="8" y="124" w="197" h="38" oX="8" oY="124" oW="1812" oH="199" />
+    <sprite x="8" y="68" w="197" h="38" oX="8" oY="68" oW="1812" oH="199" />
+    <sprite x="8" y="13" w="198" h="38" oX="8" oY="13" oW="1812" oH="199" />
+  </Animation>
+</Animations>

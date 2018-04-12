@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6FAE5AAA-DE52-4ECC-B6D3-513E07EFBF25}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MyAladdin</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>C:\Users\QuocTuyen\Downloads\Aladdin-master\Lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\QuocTuyen\Downloads\Aladdin-master\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\Aladdin\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Aladdin\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3dx9.lib;d3d9.lib;dxguid.lib;dinput8.lib;winmm.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;dxerr9.lib;dinput8.lib;dsound.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AbuView.cpp" />
+    <ClCompile Include="AladdinView.cpp" />
+    <ClCompile Include="BirdDead.cpp" />
+    <ClCompile Include="BossHealthBar.cpp" />
+    <ClCompile Include="BossStar.cpp" />
+    <ClCompile Include="DropGround.cpp" />
+    <ClCompile Include="ActionObject.cpp" />
+    <ClCompile Include="AladdinAction.cpp" />
+    <ClCompile Include="AppleItem.cpp" />
+    <ClCompile Include="Bar.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletManager.cpp" />
+    <ClCompile Include="Camel.cpp" />
+    <ClCompile Include="CamelBullet.cpp" />
+    <ClCompile Include="Civilian1.cpp" />
+    <ClCompile Include="ClayPot.cpp" />
+    <ClCompile Include="Civilian2.cpp" />
+    <ClCompile Include="Civilian3.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Fire.cpp" />
+    <ClCompile Include="GemItem.cpp" />
+    <ClCompile Include="GenieIntroView.cpp" />
+    <ClCompile Include="GenieItem.cpp" />
+    <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="Guard1.cpp" />
+    <ClCompile Include="Guard2.cpp" />
+    <ClCompile Include="Guard3.cpp" />
+    <ClCompile Include="HealthPoint.cpp" />
+    <ClCompile Include="HeartItem.cpp" />
+    <ClCompile Include="IntroSence.cpp" />
+    <ClCompile Include="ItemObject.cpp" />
+    <ClCompile Include="JafarBoss.cpp" />
+    <ClCompile Include="JarItem.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ObjectFactory.cpp" />
+    <ClCompile Include="Peddler.cpp" />
+    <ClCompile Include="QNode.cpp" />
+    <ClCompile Include="QuadTree.cpp" />
+    <ClCompile Include="SelectMenuView.cpp" />
+    <ClCompile Include="SnakeFire.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="Stair.cpp" />
+    <ClCompile Include="StaticObject.cpp" />
+    <ClCompile Include="Aladdin.cpp" />
+    <ClCompile Include="Apple.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="KeyBoard.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="ResourceFile.cpp" />
+    <ClCompile Include="Rope.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="PlaySence.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Global.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Rect.cpp" />
+    <ClCompile Include="ResourceImage.cpp" />
+    <ClCompile Include="SenceManager.cpp" />
+    <ClCompile Include="SpriteManager.cpp" />
+    <ClCompile Include="StateManager.cpp" />
+    <ClCompile Include="Stick.cpp" />
+    <ClCompile Include="Sword.cpp" />
+    <ClCompile Include="TeaPotItem.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="tinystr.cpp" />
+    <ClCompile Include="tinyxml.cpp" />
+    <ClCompile Include="tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxmlparser.cpp" />
+    <ClCompile Include="CTreeObject.cpp" />
+    <ClCompile Include="Trap.cpp" />
+    <ClCompile Include="UI_Play.cpp" />
+    <ClCompile Include="ViewObject.cpp" />
+    <ClCompile Include="ViewPort.cpp" />
+    <ClCompile Include="Wall.cpp" />
+    <ClCompile Include="WRect.cpp" />
+    <ClCompile Include="WriteText.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbuView.h" />
+    <ClInclude Include="AladdinView.h" />
+    <ClInclude Include="BirdDead.h" />
+    <ClInclude Include="BossHealthBar.h" />
+    <ClInclude Include="BossStar.h" />
+    <ClInclude Include="DropGround.h" />
+    <ClInclude Include="ActionObject.h" />
+    <ClInclude Include="AladdinAction.h" />
+    <ClInclude Include="AppleItem.h" />
+    <ClInclude Include="Bar.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletManager.h" />
+    <ClInclude Include="Camel.h" />
+    <ClInclude Include="CamelBullet.h" />
+    <ClInclude Include="Civilian1.h" />
+    <ClInclude Include="ClayPot.h" />
+    <ClInclude Include="Civilian2.h" />
+    <ClInclude Include="Civilian3.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Fire.h" />
+    <ClInclude Include="GemItem.h" />
+    <ClInclude Include="GenieIntroView.h" />
+    <ClInclude Include="GenieItem.h" />
+    <ClInclude Include="Ground.h" />
+    <ClInclude Include="Guard1.h" />
+    <ClInclude Include="Guard2.h" />
+    <ClInclude Include="Guard3.h" />
+    <ClInclude Include="HealthPoint.h" />
+    <ClInclude Include="HeartItem.h" />
+    <ClInclude Include="IntroSence.h" />
+    <ClInclude Include="ItemObject.h" />
+    <ClInclude Include="JafarBoss.h" />
+    <ClInclude Include="JarItem.h" />
+    <ClInclude Include="Manager.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="ObjectFactory.h" />
+    <ClInclude Include="Peddler.h" />
+    <ClInclude Include="QNode.h" />
+    <ClInclude Include="QuadTree.h" />
+    <ClInclude Include="SelectMenuView.h" />
+    <ClInclude Include="SnakeFire.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="Stair.h" />
+    <ClInclude Include="StaticObject.h" />
+    <ClInclude Include="Aladdin.h" />
+    <ClInclude Include="Apple.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="KeyBoard.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="ResourceFile.h" />
+    <ClInclude Include="Rope.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="PlaySence.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="ISence.h" />
+    <ClInclude Include="Rect.h" />
+    <ClInclude Include="ResourceImage.h" />
+    <ClInclude Include="SenceManager.h" />
+    <ClInclude Include="SpriteManager.h" />
+    <ClInclude Include="StateManager.h" />
+    <ClInclude Include="Stick.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="TeaPotItem.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="CTreeObject.h" />
+    <ClInclude Include="Trap.h" />
+    <ClInclude Include="UI_Play.h" />
+    <ClInclude Include="ViewObject.h" />
+    <ClInclude Include="ViewPort.h" />
+    <ClInclude Include="Wall.h" />
+    <ClInclude Include="WRect.h" />
+    <ClInclude Include="WriteText.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="ExplosingResource.xml" />
+    <Xml Include="EnemyResource.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="AladdinResource.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="ItemResource.xml" />
+    <Xml Include="JafarResource.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="TextResource.xml" />
+    <Xml Include="ViewResource.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

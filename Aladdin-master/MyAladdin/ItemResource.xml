@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Animations>
+  <Animation name="HealthPoint" imagePath="aladdinHp.png" width="1140" height="36">
+    <sprite x="4" y="8" w="50" h="24" oX="4" oY="9" oW="42" oH="1040" />
+    <sprite x="117" y="8" w="59" h="24" oX="117" oY="9" oW="42" oH="1040" />
+    <sprite x="232" y="2" w="73" h="30" oX="232" oY="3" oW="42" oH="1040" />
+    <sprite x="346" y="2" w="81" h="30" oX="346" oY="3" oW="42" oH="1040" />
+    <sprite x="460" y="2" w="87" h="30" oX="460" oY="3" oW="42" oH="1040" />
+    <sprite x="574" y="2" w="97" h="30" oX="574" oY="3" oW="42" oH="1040" />
+    <sprite x="688" y="2" w="104" h="30" oX="688" oY="3" oW="42" oH="1040" />
+    <sprite x="802" y="2" w="107" h="30" oX="802" oY="3" oW="42" oH="1040" />
+    <sprite x="916" y="2" w="106" h="30" oX="916" oY="3" oW="42" oH="1040" />
+    <sprite x="1024" y="2" w="111" h="30" oX="1024" oY="3" oW="42" oH="1040" />
+  </Animation>
+  <Animation name="gem" imagePath="Item.png" width="664" height="471">
+    <sprite x="339" y="111" w="19" h="18" oX="340" oY="111" oW="-417" oH="222" />
+    <sprite x="362" y="111" w="19" h="18" oX="363" oY="111" oW="-417" oH="222" />
+    <sprite x="385" y="111" w="19" h="18" oX="386" oY="111" oW="-417" oH="222" />
+    <sprite x="408" y="111" w="19" h="18" oX="409" oY="111" oW="-417" oH="222" />
+    <sprite x="431" y="110" w="19" h="18" oX="432" oY="110" oW="-417" oH="222" />
+    <sprite x="453" y="105" w="33" h="27" oX="454" oY="105" oW="-417" oH="222" />
+    <sprite x="491" y="108" w="24" h="22" oX="492" oY="108" oW="-417" oH="222" />
+    <sprite x="521" y="112" w="19" h="18" oX="522" oY="112" oW="-417" oH="222" />
+    <sprite x="544" y="112" w="19" h="18" oX="545" oY="112" oW="-417" oH="222" />
+  </Animation>
+  <Animation name="heart" imagePath="Item.png" width="664" height="471">
+    <sprite x="343" y="171" w="19" h="23" oX="343" oY="171" oW="-292" oH="163" />
+    <sprite x="366" y="173" w="17" h="22" oX="366" oY="173" oW="-292" oH="163" />
+    <sprite x="387" y="175" w="16" h="20" oX="387" oY="175" oW="-292" oH="163" />
+    <sprite x="406" y="175" w="17" h="20" oX="406" oY="175" oW="-292" oH="163" />
+    <sprite x="426" y="173" w="19" h="22" oX="426" oY="173" oW="-292" oH="163" />
+    <sprite x="448" y="174" w="17" h="22" oX="448" oY="174" oW="-292" oH="163" />
+    <sprite x="467" y="176" w="16" h="20" oX="467" oY="176" oW="-292" oH="163" />
+    <sprite x="486" y="176" w="17" h="20" oX="486" oY="176" oW="-292" oH="163" />
+  </Animation>
+  <Animation name="abu" imagePath="Item.png" width="664" height="471">
+    <sprite x="345" y="213" w="19" h="18" oX="345" oY="213" oW="-364" oH="270" />
+    <sprite x="368" y="213" w="19" h="18" oX="368" oY="213" oW="-364" oH="270" />
+    <sprite x="391" y="211" w="19" h="20" oX="391" oY="211" oW="-364" oH="270" />
+    <sprite x="415" y="209" w="19" h="22" oX="415" oY="209" oW="-364" oH="270" />
+    <sprite x="440" y="209" w="19" h="22" oX="440" oY="209" oW="-364" oH="270" />
+    <sprite x="462" y="206" w="32" h="25" oX="462" oY="206" oW="-364" oH="270" />
+    <sprite x="499" y="207" w="32" h="25" oX="499" oY="207" oW="-364" oH="270" />
+    <sprite x="542" y="209" w="21" h="23" oX="542" oY="209" oW="-364" oH="270" />
+    <sprite x="570" y="209" w="21" h="23" oX="570" oY="209" oW="-364" oH="270" />
+    <sprite x="596" y="213" w="19" h="19" oX="596" oY="213" oW="-364" oH="270" />
+  </Animation>
+  <Animation name="genie" imagePath="Item.png" width="664" height="471">
+    <sprite x="335" y="45" w="38" h="49" oX="335" oY="45" oW="-404" oH="197" />
+    <sprite x="389" y="45" w="42" h="51" oX="389" oY="45" oW="-404" oH="197" />
+    <sprite x="443" y="49" w="44" h="43" oX="443" oY="49" oW="-404" oH="197" />
+    <sprite x="497" y="48" w="44" h="43" oX="497" oY="48" oW="-404" oH="197" />
+  </Animation>
+  <Animation name="jargenie" imagePath="Item.png" width="664" height="471">
+    <sprite x="19" y="424" w="19" h="32" oX="19" oY="424" oW="450" oH="300" />
+    <sprite x="49" y="428" w="23" h="28" oX="49" oY="428" oW="450" oH="300" />
+    <sprite x="78" y="437" w="34" h="19" oX="78" oY="437" oW="450" oH="300" />
+    <sprite x="119" y="425" w="19" h="33" oX="119" oY="425" oW="450" oH="300" />
+    <sprite x="145" y="425" w="22" h="33" oX="145" oY="425" oW="450" oH="300" />
+    <sprite x="174" y="426" w="25" h="32" oX="174" oY="426" oW="450" oH="300" />
+    <sprite x="207" y="426" w="23" h="33" oX="207" oY="426" oW="450" oH="300" />
+    <sprite x="239" y="427" w="20" h="33" oX="239" oY="427" oW="450" oH="300" />
+    <sprite x="270" y="428" w="23" h="32" oX="270" oY="428" oW="450" oH="300" />
+    <sprite x="302" y="429" w="22" h="32" oX="302" oY="429" oW="450" oH="300" />
+  </Animation>
+  <Animation name="teapot" imagePath="Item.png" width="664" height="471">
+    <sprite x="369" y="15" w="32" h="15" oX="369" oY="15" oW="-330" oH="32" />
+  </Animation>
+  <Animation name="guide" imagePath="Item.png" width="664" height="471">
+    <sprite x="8" y="18" w="296" h="174" oX="8" oY="18" oW="245" oH="296" />
+  </Animation>
+  <Animation name="backgroundguide" imagePath="Item.png" width="664" height="471">
+    <sprite x="2" y="199" w="320" h="215" oX="2" oY="199" oW="465" oH="320" />
+  </Animation>
+  <Animation name="stick" imagePath="stick.png" width="900" height="66">
+    <sprite x="1" y="13" w="86" h="35" oX="1" oY="13" oW="99" oH="897" />
+    <sprite x="91" y="35" w="79" h="29" oX="91" oY="35" oW="99" oH="897" />
+    <sprite x="181" y="1" w="70" h="47" oX="181" oY="1" oW="99" oH="897" />
+    <sprite x="271" y="35" w="79" h="29" oX="271" oY="35" oW="99" oH="897" />
+    <sprite x="361" y="1" w="70" h="47" oX="361" oY="1" oW="99" oH="897" />
+    <sprite x="451" y="35" w="83" h="27" oX="451" oY="35" oW="99" oH="897" />
+    <sprite x="541" y="5" w="82" h="43" oX="541" oY="5" oW="99" oH="897" />
+    <sprite x="631" y="21" w="86" h="29" oX="631" oY="21" oW="99" oH="897" />
+    <sprite x="721" y="7" w="82" h="41" oX="721" oY="7" oW="99" oH="897" />
+    <sprite x="811" y="9" w="84" h="39" oX="811" oY="9" oW="99" oH="897" />
+  </Animation>
+<Animation name="dropGround" imagePath="dropGround.png" width="272" height="22">
+    <sprite x="1" y="2" w="32" h="14" oX="1" oY="2" oW="25" oH="274" />
+    <sprite x="35" y="2" w="32" h="15" oX="35" oY="2" oW="25" oH="274" />
+    <sprite x="69" y="2" w="32" h="14" oX="69" oY="2" oW="25" oH="274" />
+    <sprite x="103" y="2" w="32" h="14" oX="103" oY="2" oW="25" oH="274" />
+    <sprite x="137" y="2" w="32" h="13" oX="137" oY="2" oW="25" oH="274" />
+    <sprite x="172" y="1" w="30" h="14" oX="172" oY="1" oW="25" oH="274" />
+    <sprite x="208" y="1" w="28" h="15" oX="208" oY="1" oW="25" oH="274" />
+    <sprite x="241" y="2" w="28" h="18" oX="241" oY="2" oW="25" oH="274" />
+  </Animation>
+</Animations>
